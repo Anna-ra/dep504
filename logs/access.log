@@ -1348,3 +1348,16 @@
 127.0.0.1 - - [11/Nov/2019:22:27:26 +0200] "POST /admin/modules/uninstall/confirm HTTP/1.1" 303 1130 "http://dep504.local/admin/modules/uninstall/confirm" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
 127.0.0.1 - - [11/Nov/2019:22:27:44 +0200] "GET /sites/default/files/js/js_D7s7wzzxTviOaIcGAqgTzyHQlkDCWzMZs8By2vqazsE.js HTTP/1.1" 200 97084 "http://dep504.local/admin/modules/uninstall" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
 127.0.0.1 - - [11/Nov/2019:22:27:34 +0200] "GET /admin/modules/uninstall HTTP/1.1" 200 24067 "http://dep504.local/admin/modules/uninstall/confirm" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
+<<<<<<< HEAD
+127.0.0.1 - - [11/Nov/2019:23:25:45 +0200] "-" 408 0 "-" "-"
+127.0.0.1 - - [11/Nov/2019:23:24:53 +0200] "GET / HTTP/1.1" 200 14517 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
+127.0.0.1 - - [11/Nov/2019:23:26:04 +0200] "GET /sites/default/files/css/css_26bRAiWaKD4TSNl8yrinLV5Pw037yyPD943Hk2muzf4.css?q0tnwl HTTP/1.1" 200 3398 "http://dep504.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
+127.0.0.1 - - [11/Nov/2019:23:26:04 +0200] "GET /sites/default/files/css/css_rppRGD_OoHfR_SJsouUbDXbYqdDsbR40sRSsm5MvFnw.css?q0tnwl HTTP/1.1" 200 865 "http://dep504.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
+127.0.0.1 - - [11/Nov/2019:23:26:04 +0200] "GET /sites/default/files/css/css_4ZT3tuQGsKUOpmUyOR042YN4cQ2WDB23aBIwSn6ocqU.css?q0tnwl HTTP/1.1" 200 10384 "http://dep504.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
+127.0.0.1 - - [11/Nov/2019:23:26:04 +0200] "GET /sites/default/files/css/css_42_x8qf8cYtx5ZdN28wbtkhkg4GvgJ7TMZ-97_T2mEk.css?q0tnwl HTTP/1.1" 200 19868 "http://dep504.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
+127.0.0.1 - - [11/Nov/2019:23:26:04 +0200] "GET /sites/default/files/js/js_-5zQgGxCcdOqW47B_iT3TjhrFsB_7bVFOYoz6A-DYDY.js HTTP/1.1" 200 164647 "http://dep504.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
+127.0.0.1 - - [11/Nov/2019:23:26:06 +0200] "POST /contextual/render HTTP/1.1" 200 4324 "http://dep504.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
+127.0.0.1 - - [11/Nov/2019:23:26:52 +0200] "GET /core/misc/icons/787878/push-left.svg HTTP/1.1" 200 686 "http://dep504.local/sites/default/files/css/css_4ZT3tuQGsKUOpmUyOR042YN4cQ2WDB23aBIwSn6ocqU.css?q0tnwl" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
+=======
+
+>>>>>>> 3d00b1edc41132d85a275db87e0b46d283849aec

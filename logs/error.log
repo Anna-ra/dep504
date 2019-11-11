@@ -3861,6 +3861,7 @@
 [Fri Nov 08 09:28:59.996401 2019] [authz_core:debug] [pid 2917] mod_authz_core.c(809): [client 127.0.0.1:53886] AH01626: authorization result of Require all granted: granted, referer: http://dep504.local/
 [Fri Nov 08 09:28:59.996407 2019] [authz_core:debug] [pid 2917] mod_authz_core.c(809): [client 127.0.0.1:53886] AH01626: authorization result of <RequireAny>: granted, referer: http://dep504.local/
 [Fri Nov 08 09:29:43.219423 2019] [reqtimeout:info] [pid 2915] [client 127.0.0.1:53888] AH01382: Request header read timeout
+
 [Mon Nov 11 17:50:27.117763 2019] [authz_core:debug] [pid 2326] mod_authz_core.c(809): [client 127.0.0.1:40048] AH01626: authorization result of Require all granted: granted
 [Mon Nov 11 17:50:27.137054 2019] [authz_core:debug] [pid 2326] mod_authz_core.c(809): [client 127.0.0.1:40048] AH01626: authorization result of <RequireAny>: granted
 [Mon Nov 11 17:50:27.137250 2019] [authz_core:debug] [pid 2326] mod_authz_core.c(809): [client 127.0.0.1:40048] AH01626: authorization result of Require all granted: granted
@@ -4158,3 +4159,34 @@
 [Mon Nov 11 22:27:44.581971 2019] [authz_core:debug] [pid 5581] mod_authz_core.c(809): [client 127.0.0.1:41036] AH01626: authorization result of <RequireAny>: granted, referer: http://dep504.local/admin/modules/uninstall
 [Mon Nov 11 22:27:44.675753 2019] [deflate:debug] [pid 5581] mod_deflate.c(854): [client 127.0.0.1:41036] AH01384: Zlib: Compressed 341363 to 96644 : URL /sites/default/files/js/js_D7s7wzzxTviOaIcGAqgTzyHQlkDCWzMZs8By2vqazsE.js, referer: http://dep504.local/admin/modules/uninstall
 [Mon Nov 11 22:27:44.714558 2019] [deflate:debug] [pid 2331] mod_deflate.c(854): [client 127.0.0.1:41030] AH01384: Zlib: Compressed 220641 to 23192 : URL /index.php, referer: http://dep504.local/admin/modules/uninstall/confirm
+<<<<<<< HEAD
+[Mon Nov 11 23:24:53.591059 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of Require all granted: granted
+[Mon Nov 11 23:24:53.602065 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of <RequireAny>: granted
+[Mon Nov 11 23:24:53.602321 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of Require all granted: granted
+[Mon Nov 11 23:24:53.602334 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of <RequireAny>: granted
+[Mon Nov 11 23:25:45.152315 2019] [reqtimeout:info] [pid 1073] [client 127.0.0.1:45308] AH01382: Request header read timeout
+[Mon Nov 11 23:26:04.270912 2019] [deflate:debug] [pid 1072] mod_deflate.c(854): [client 127.0.0.1:45306] AH01384: Zlib: Compressed 69713 to 13567 : URL /index.php
+[Mon Nov 11 23:26:04.570378 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of Require all granted: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.570418 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of <RequireAny>: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.583717 2019] [deflate:debug] [pid 1072] mod_deflate.c(854): [client 127.0.0.1:45306] AH01384: Zlib: Compressed 13098 to 3043 : URL /sites/default/files/css/css_26bRAiWaKD4TSNl8yrinLV5Pw037yyPD943Hk2muzf4.css, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.618804 2019] [authz_core:debug] [pid 1074] mod_authz_core.c(809): [client 127.0.0.1:45322] AH01626: authorization result of Require all granted: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.618864 2019] [authz_core:debug] [pid 1074] mod_authz_core.c(809): [client 127.0.0.1:45322] AH01626: authorization result of <RequireAny>: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.619579 2019] [authz_core:debug] [pid 1075] mod_authz_core.c(809): [client 127.0.0.1:45320] AH01626: authorization result of Require all granted: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.619624 2019] [authz_core:debug] [pid 1075] mod_authz_core.c(809): [client 127.0.0.1:45320] AH01626: authorization result of <RequireAny>: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.635718 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of Require all granted: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.635744 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of <RequireAny>: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.647866 2019] [deflate:debug] [pid 1075] mod_deflate.c(854): [client 127.0.0.1:45320] AH01384: Zlib: Compressed 1630 to 511 : URL /sites/default/files/css/css_rppRGD_OoHfR_SJsouUbDXbYqdDsbR40sRSsm5MvFnw.css, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.666025 2019] [deflate:debug] [pid 1074] mod_deflate.c(854): [client 127.0.0.1:45322] AH01384: Zlib: Compressed 67311 to 10026 : URL /sites/default/files/css/css_4ZT3tuQGsKUOpmUyOR042YN4cQ2WDB23aBIwSn6ocqU.css, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.674082 2019] [authz_core:debug] [pid 1076] mod_authz_core.c(809): [client 127.0.0.1:45324] AH01626: authorization result of Require all granted: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.674122 2019] [authz_core:debug] [pid 1076] mod_authz_core.c(809): [client 127.0.0.1:45324] AH01626: authorization result of <RequireAny>: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.692472 2019] [deflate:debug] [pid 1076] mod_deflate.c(854): [client 127.0.0.1:45324] AH01384: Zlib: Compressed 121080 to 19510 : URL /sites/default/files/css/css_42_x8qf8cYtx5ZdN28wbtkhkg4GvgJ7TMZ-97_T2mEk.css, referer: http://dep504.local/
+[Mon Nov 11 23:26:04.716794 2019] [deflate:debug] [pid 1072] mod_deflate.c(854): [client 127.0.0.1:45306] AH01384: Zlib: Compressed 641617 to 164154 : URL /sites/default/files/js/js_-5zQgGxCcdOqW47B_iT3TjhrFsB_7bVFOYoz6A-DYDY.js, referer: http://dep504.local/
+[Mon Nov 11 23:26:06.797003 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of Require all granted: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:06.797034 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of <RequireAny>: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:06.797064 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of Require all granted: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:06.797070 2019] [authz_core:debug] [pid 1072] mod_authz_core.c(809): [client 127.0.0.1:45306] AH01626: authorization result of <RequireAny>: granted, referer: http://dep504.local/
+[Mon Nov 11 23:26:52.083353 2019] [authz_core:debug] [pid 2605] mod_authz_core.c(809): [client 127.0.0.1:45330] AH01626: authorization result of Require all granted: granted, referer: http://dep504.local/sites/default/files/css/css_4ZT3tuQGsKUOpmUyOR042YN4cQ2WDB23aBIwSn6ocqU.css?q0tnwl
+[Mon Nov 11 23:26:52.084006 2019] [authz_core:debug] [pid 2605] mod_authz_core.c(809): [client 127.0.0.1:45330] AH01626: authorization result of <RequireAny>: granted, referer: http://dep504.local/sites/default/files/css/css_4ZT3tuQGsKUOpmUyOR042YN4cQ2WDB23aBIwSn6ocqU.css?q0tnwl
+=======
+
+>>>>>>> 3d00b1edc41132d85a275db87e0b46d283849aec
