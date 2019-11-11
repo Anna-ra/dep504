@@ -1348,3 +1348,4 @@
 127.0.0.1 - - [11/Nov/2019:22:27:26 +0200] "POST /admin/modules/uninstall/confirm HTTP/1.1" 303 1130 "http://dep504.local/admin/modules/uninstall/confirm" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
 127.0.0.1 - - [11/Nov/2019:22:27:44 +0200] "GET /sites/default/files/js/js_D7s7wzzxTviOaIcGAqgTzyHQlkDCWzMZs8By2vqazsE.js HTTP/1.1" 200 97084 "http://dep504.local/admin/modules/uninstall" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
 127.0.0.1 - - [11/Nov/2019:22:27:34 +0200] "GET /admin/modules/uninstall HTTP/1.1" 200 24067 "http://dep504.local/admin/modules/uninstall/confirm" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36"
+
