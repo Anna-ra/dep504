@@ -1,0 +1,11 @@
+uuid: a00f3031-ad3c-4e63-adc4-b4f454047792
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:33641341-a141-47ee-b3fb-59a7772fb036'
+id: text
+label: text
+icon_uuid: 33641341-a141-47ee-b3fb-59a7772fb036
+description: ''
+behavior_plugins: {  }

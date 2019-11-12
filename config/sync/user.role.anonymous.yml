@@ -1,0 +1,17 @@
+uuid: 43792ddb-f30b-48b7-827e-c2b1e63e3560
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'Анонимный пользователь'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'display eu cookie compliance popup'
+  - 'search content'
+  - 'use text format restricted_html'

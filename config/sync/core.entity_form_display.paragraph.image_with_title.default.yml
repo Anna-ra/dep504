@@ -1,0 +1,26 @@
+uuid: 21613ca6-f79b-4099-9c93-f41684369d3a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_with_title.field_titled_image
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.image_with_title
+  module:
+    - image
+id: paragraph.image_with_title.default
+targetEntityType: paragraph
+bundle: image_with_title
+mode: default
+content:
+  field_titled_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true

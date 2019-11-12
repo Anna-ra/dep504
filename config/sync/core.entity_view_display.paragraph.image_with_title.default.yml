@@ -1,0 +1,25 @@
+uuid: 6b85afac-37b3-498d-bd09-6b7cf8a8c6d1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_with_title.field_titled_image
+    - paragraphs.paragraphs_type.image_with_title
+  module:
+    - image
+id: paragraph.image_with_title.default
+targetEntityType: paragraph
+bundle: image_with_title
+mode: default
+content:
+  field_titled_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  search_api_excerpt: true

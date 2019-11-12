@@ -1,0 +1,11 @@
+uuid: 442c4bea-1f95-4149-9ce8-3147199cfbf7
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:59e8693c-bb97-482f-9c91-334f9df050ed'
+id: image
+label: image
+icon_uuid: 59e8693c-bb97-482f-9c91-334f9df050ed
+description: ''
+behavior_plugins: {  }

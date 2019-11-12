@@ -1,0 +1,22 @@
+uuid: cedb7b7f-b0f5-47a5-8c41-1622310ee937
+langcode: ru
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - dep504theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: dep504theme_help
+theme: dep504theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Справка
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: bca7f3c6-bf38-4c13-be86-05f4cb04b3c0
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:22f6494d-3d5c-44f4-afee-d22d051cb52c'
+id: texts
+label: texts
+icon_uuid: 22f6494d-3d5c-44f4-afee-d22d051cb52c
+description: ''
+behavior_plugins: {  }

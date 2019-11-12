@@ -1,0 +1,22 @@
+uuid: 37e29a15-f2a9-4c2c-9601-4cf939daeb38
+langcode: ru
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - dep504theme
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: dep504theme_search
+theme: dep504theme
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Поиск
+  provider: search
+  label_display: visible
+visibility: {  }

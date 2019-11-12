@@ -1,0 +1,22 @@
+uuid: 88b982e4-5547-4f4b-8493-db9e81abb885
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dep504theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: dep504theme_breadcrumbs
+theme: dep504theme
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Строка навигации'
+  provider: system
+  label_display: '0'
+visibility: {  }

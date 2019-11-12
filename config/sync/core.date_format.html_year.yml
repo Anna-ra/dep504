@@ -1,0 +1,10 @@
+uuid: 4d329718-fa64-40b1-be37-173514f468b2
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OjekiQuX9RbVQ2_8jOHBL94RgYLePqX7wpfNGgcQzrk
+id: html_year
+label: 'Год HTML'
+locked: true
+pattern: 'Y'
