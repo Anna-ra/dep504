@@ -1,0 +1,20 @@
+uuid: df939dbf-27b8-48ec-b331-16ab0fd0d3c6
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - dep504theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: dep504theme_page_title
+theme: dep504theme
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок страницы'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: 1f5556af-d598-4b3a-9e36-d02408d666c9
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:38d789bf-6f42-4cd8-941d-2e2ec54ed611'
+id: text_and_image
+label: 'text and image'
+icon_uuid: 38d789bf-6f42-4cd8-941d-2e2ec54ed611
+description: ''
+behavior_plugins: {  }

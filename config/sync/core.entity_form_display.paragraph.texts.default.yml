@@ -1,0 +1,25 @@
+uuid: 14b3172d-91f4-401f-aa84-1fad370b0e5c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texts.field_texts
+    - paragraphs.paragraphs_type.texts
+  module:
+    - text
+id: paragraph.texts.default
+targetEntityType: paragraph
+bundle: texts
+mode: default
+content:
+  field_texts:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

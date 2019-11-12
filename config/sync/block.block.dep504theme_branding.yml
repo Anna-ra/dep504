@@ -1,0 +1,25 @@
+uuid: 5c734934-fa3c-4f25-a825-332f7c498409
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dep504theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: dep504theme_branding
+theme: dep504theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендинг сайта'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

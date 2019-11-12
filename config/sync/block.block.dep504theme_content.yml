@@ -1,0 +1,22 @@
+uuid: 2f0f3c62-9545-497f-bbf5-ad48cb9ffdff
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dep504theme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: dep504theme_content
+theme: dep504theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Содержимое страницы'
+  provider: system
+  label_display: '0'
+visibility: {  }

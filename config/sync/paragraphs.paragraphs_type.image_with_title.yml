@@ -1,0 +1,11 @@
+uuid: 71863967-083c-480b-b0e7-8bd31e93f66e
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:a7cf66bb-f322-43fe-b472-a2c610e07c43'
+id: image_with_title
+label: 'image with title'
+icon_uuid: a7cf66bb-f322-43fe-b472-a2c610e07c43
+description: ''
+behavior_plugins: {  }
