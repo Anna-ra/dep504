@@ -2,3 +2,55 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Expletus+Sans|Orbitron:400,900|Raleway:900&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+/*<link href="/themes/custom/dep504theme/Fonts/Comfortaa/Comfortaa[wght].ttf"> not works*/
+.content{
+background-color:#0d0d0d;
+}
+.title {
+font-family:'Raleway Black', sans-serif;
+letter-spacing:-0.1em;
+font-size:100px;
+color:#ffffff;
+text-shadow:10px 10px 40% #0d0d0d;
+}
+.console {
+font-family:'Orbitron', sans-serif;
+letter-spacing: 0.025em;
+font-size: 25px;
+color:#ffffff;
+text-shadow:10px 10px 40% #0d0d0d;
+opacity:75%;
+}
+.page_number {
+font-family:'Expletus Sans', cursive;
+letter-spacing: 0em;
+font-size: 25px;
+text-align:center;
+color:#ffffff;
+opacity:25%;
+}
+.text {
+font-family:'Comfortaa', cursive;
+letter-spacing: 0em;
+font-size: 14px;
+text-align:left;
+border:2px solid gray;
+padding: 3%;
+background-color:#ffffff;
+width:40%;
+}
+.link{
+font-family:'Expletus Sans', cursive;
+letter-spacing: 0em;
+font-size: 14px;
+color:#ff0000;
+}
+.link:hover{
+color:#ff0000;
+}
+.main_page_image {
+height:100%;
+width:50%;
+margin-right:6%;
+}
